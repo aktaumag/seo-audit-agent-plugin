@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2
+
+- Standardized every audit iteration around new colored check lines, one audit link, and conditional stop/continuation details.
+- Removed separately displayed access codes and technical audit references from user-facing output.
+- Continue automatically after every non-blocking saved result; do not request Work Mode when tools already work.
+- Added concise, localized progress Markdown and separated unverified items from checked results without exposing internal status names.
+
 ## 0.2.1
 
 - Added a visible per-check operation log with server-backed `N / total` progress.
