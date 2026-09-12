@@ -1,6 +1,6 @@
 {
   "name": "seo-audit-agent",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Runs a complete, versioned SEO audit through one shared remote MCP methodology.",
   "author": {
     "name": "Михаил «Web» Носов"
@@ -27,7 +27,7 @@
     ],
     "defaultPrompt": [
       "Проведи полный SEO-аудит сайта example.com",
-      "Продолжи мой незавершённый SEO-аудит",
+      "Открой и продолжи SEO-аудит по этой ссылке: https://seo-audit.wseo.pw/audit/XXXX-XXXX-XXXX-XXXX",
       "Сформируй отчёт по текущему SEO-аудиту"
     ],
     "brandColor": "#E4572E"

@@ -1,11 +1,13 @@
 # Changelog
 
-## 0.1.1
+## 0.2.0
 
-- Start a complete audit without signing in.
-- Keep temporary progress for seven days and explain that limit at useful moments.
-- Add `claim_audit` so a user can sign in later and attach all accumulated progress to an account.
-- Remove eager OAuth configuration from the client package.
+- Replaced accounts and OAuth with permanent access-by-link behavior.
+- Added shareable 16-character audit codes and public noindex report pages.
+- Added `open_audit` for continuing work from the same link across supported clients.
+- Added Markdown and JSON downloads from the public report page.
+- Changed retention to 90 days after the last saved result change; views do not extend it.
+- Removed `list_audits`, `claim_audit`, and `delete_audit` from the MCP interface.
 
 ## 0.1.0
 
