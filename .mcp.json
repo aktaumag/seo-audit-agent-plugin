@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "seo-audit-agent": {
+      "type": "http",
+      "url": "https://seo-audit-mcp.seo-audit-agent.workers.dev/mcp",
+      "oauth": {
+        "scopes": "audit:read audit:write"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "seo-audit-agent",
+  "version": "0.1.0",
+  "description": "Runs a complete, versioned SEO audit through one shared remote MCP methodology.",
+  "author": {
+    "name": "Михаил «Web» Носов"
+  },
+  "license": "MIT",
+  "keywords": ["seo", "audit", "technical-seo", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SEO Audit Agent",
+    "shortDescription": "Полный пошаговый SEO-аудит сайта",
+    "longDescription": "Проводит полный SEO-аудит по версионируемой методике: выполняет доступные проверки, запрашивает недостающие доказательства, рассчитывает критичность на сервере и формирует структурированный отчёт.",
+    "developerName": "Михаил «Web» Носов",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Проведи полный SEO-аудит сайта example.com",
+      "Продолжи мой незавершённый SEO-аудит",
+      "Сформируй отчёт по текущему SEO-аудиту"
+    ],
+    "brandColor": "#E4572E"
+  }
+}
