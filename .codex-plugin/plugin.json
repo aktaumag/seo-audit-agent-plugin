@@ -1,6 +1,6 @@
 {
   "name": "seo-audit-agent",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Runs a complete, versioned SEO audit through one shared remote MCP methodology.",
   "author": {
     "name": "Михаил «Web» Носов"
@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "SEO Audit Agent",
     "shortDescription": "Полный пошаговый SEO-аудит сайта",
-    "longDescription": "Проводит полный SEO-аудит по версионируемой методике: выполняет доступные проверки, запрашивает недостающие доказательства, рассчитывает критичность на сервере и формирует структурированный отчёт.",
+    "longDescription": "Проводит полный SEO-аудит по версионируемой методике: показывает ход каждой проверки, сохраняет доступные результаты на сервере, заранее объясняет только чтение публичных страниц в браузере и формирует структурированный отчёт прямо в чате.",
     "developerName": "Михаил «Web» Носов",
     "category": "Productivity",
     "capabilities": [

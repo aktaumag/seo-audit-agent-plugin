@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1
+
+- Added a visible per-check operation log with server-backed `N / total` progress.
+- Added persisted, read-only cloud-browser checkpoints: hostname, public pages, exact reason, and permitted inspection actions are visible before a blocking permission dialog.
+- Added an explicit autonomous-first / full-technical-now protocol so a paused browser dialog never becomes the only audit outcome.
+- Added a live public report timeline and current-check snapshot; the full Markdown report remains available directly in chat.
+
 ## 0.2.0
 
 - Replaced accounts and OAuth with permanent access-by-link behavior.
